@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="profile" href="http://gmpg.org/xfn/11">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://pateras95.github.io/MuseumTimeline/xmlrpc.php">
+    
 <title>Blog &#8211; Interactive Timeline </title>
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//s.w.org">
@@ -27,189 +29,272 @@ img.emoji {
 }</style>
 	<link rel="stylesheet" id="wp-block-library-css" href="https://pateras95.github.io/MuseumTimeline/wp-includes/css/dist/block-library/style.min.css?ver=5.6.1" type="text/css" media="all">
 <link rel="stylesheet" id="rate-my-post-css" href="https://pateras95.github.io/MuseumTimeline/wp-content/plugins/rate-my-post/public/css/rate-my-post.css?ver=3.3.1" type="text/css" media="all">
-<link rel="stylesheet" id="amphibious-bootstrap-grid-css" href="https://pateras95.github.io/MuseumTimeline/wp-content/themes/amphibious/css/bootstrap-grid.css?ver=5.6.1" type="text/css" media="all">
-<link rel="stylesheet" id="font-awesome-5-css" href="https://pateras95.github.io/MuseumTimeline/wp-content/themes/amphibious/css/fontawesome-all.css?ver=5.6.1" type="text/css" media="all">
-<link rel="stylesheet" id="amphibious-fonts-css" href="https://fonts.googleapis.com/css?family=Poppins%3A400%2C400i%2C700%2C700i%7CRubik%3A400%2C400i%2C700%2C700i&#038;subset=latin%2Clatin-ext" type="text/css" media="all">
-<link rel="stylesheet" id="amphibious-style-css" href="https://pateras95.github.io/MuseumTimeline/wp-content/themes/amphibious/style.css?ver=5.6.1" type="text/css" media="all">
-<style id="amphibious-style-inline-css" type="text/css">.archive-title-control { clip: rect(1px, 1px, 1px, 1px); position: absolute; }</style>
+<link rel="stylesheet" id="bootstrap-css" href="https://pateras95.github.io/MuseumTimeline/wp-content/themes/blog-way/assets/third-party/bootstrap/bootstrap.min.css?ver=5.6.1" type="text/css" media="all">
+<link rel="stylesheet" id="meanmenu-css" href="https://pateras95.github.io/MuseumTimeline/wp-content/themes/blog-way/assets/third-party/meanmenu/meanmenu.css?ver=5.6.1" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="https://pateras95.github.io/MuseumTimeline/wp-content/themes/blog-way/assets/third-party/font-awesome/css/font-awesome.min.css?ver=5.6.1" type="text/css" media="all">
+<link rel="stylesheet" id="blog-way-fonts-css" href="https://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700%7CMontserrat%3A400%2C700&#038;subset=latin%2Clatin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="blog-way-style-css" href="https://pateras95.github.io/MuseumTimeline/wp-content/themes/blog-way/style.css?ver=5.6.1" type="text/css" media="all">
 <script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-includes/js/jquery/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="https://pateras95.github.io/MuseumTimeline/wp-json/">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pateras95.github.io/MuseumTimeline/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://pateras95.github.io/MuseumTimeline/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.6.1">
+               
+    <style>body{
+            color: #404040;
+        }
 
-	
-	<style type="text/css" id="custom-background-css">body.custom-background { background-color: #9baebc; }</style>
-	<link rel="icon" href="https://pateras95.github.io/MuseumTimeline/wp-content/uploads/2021/02/cropped-1428515-32x32.jpg" sizes="32x32">
+        .site-title a{
+            color: #222222;
+        }
+
+        .site-description{
+            color: #818181;
+        }
+
+        h1,
+        h2, 
+        h3,
+        h4, 
+        h5,
+        h6,
+        .entry-header h2.entry-title a,
+        .related-posts .news-item.three-column-item .news-text-wrap h2 a{
+            color: #404040;
+        }
+
+        #primary .cat-links a{
+            color: #ea9920;
+        }
+
+        .author-info-wrap .author-content-wrap a.authors-more-posts,
+        .blog_way_widget_author .author-profile a.btn-continue,
+        .content-area a{
+            color: #ea9920;
+        }
+
+        header#masthead,
+        .main-navigation ul ul,
+        .mean-container .mean-bar{
+            background: #202020;
+        }
+
+        .main-navigation ul li a,
+        #masthead .main-navigation ul li ul li a,
+        #masthead .main-navigation li.current_page_item ul li a,
+        a.meanmenu-reveal.meanclose{
+            color: #ffffff;
+        }
+
+        #masthead .main-navigation ul li ul.sub-menu li ul.sub-menu li a{
+            color: #ffffff;
+        }
+
+        .mean-container a.meanmenu-reveal span{
+            background: #ffffff;
+        }
+
+        #masthead .main-navigation li.current-menu-item a,
+        #masthead .main-navigation li.current_page_item a,
+        .main-navigation ul.menu li:hover a,
+        #masthead .main-navigation ul li ul li:hover a,
+        #masthead .main-navigation li.current_page_item ul li:hover a,
+        #masthead .main-navigation ul li ul.sub-menu li ul.sub-menu li:hover a,
+        #masthead .main-navigation ul li ul.sub-menu li ul.sub-menu li.current-menu-item a{
+            color: #afafaf;
+        }
+    
+        .widget .widget-title{
+            background: #ffffff;
+        }
+
+        .site-footer,
+        .footer-social .menu-social-menu-container #menu-social-menu{
+            background: #202020;
+        }
+        .site-info,
+        .site-info a{
+            color: #787878;
+        }
+
+        button, 
+        input[type="button"], 
+        input[type="reset"], 
+        input[type="submit"], 
+        .nav-links .nav-previous a, 
+        .nav-links .nav-next a,
+        .nav-links .page-numbers,
+        .pagination .page-numbers.next, 
+        .pagination .page-numbers.previous{
+            border: 1px solid #202020;
+            background: #202020;
+        }
+
+        .scrollup {
+            background-color: #ea9920;
+        }</style>
+
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<link rel="icon" href="https://pateras95.github.io/MuseumTimeline/wp-content/uploads/2021/02/cropped-1428515-32x32.jpg" sizes="32x32">
 <link rel="icon" href="https://pateras95.github.io/MuseumTimeline/wp-content/uploads/2021/02/cropped-1428515-192x192.jpg" sizes="192x192">
 <link rel="apple-touch-icon" href="https://pateras95.github.io/MuseumTimeline/wp-content/uploads/2021/02/cropped-1428515-180x180.jpg">
 <meta name="msapplication-TileImage" content="https://pateras95.github.io/MuseumTimeline/wp-content/uploads/2021/02/cropped-1428515-270x270.jpg">
 </head>
-<body class="blog custom-background hfeed has-site-branding has-box-layout has-no-sidebar">
-<div id="page" class="site-wrapper site">
-	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-	
-<header id="masthead" class="site-header">
-	<div class="container">
-		<div class="row">
-			<div class="col">
-
-				<div class="site-header-inside-wrapper">
-					
-<div class="site-branding-wrapper">
-	<div class="site-logo-wrapper"></div>
-	<div class="site-branding">
-					<p class="site-title"><a href="https://pateras95.github.io/MuseumTimeline/" title="Interactive Timeline " rel="home">Interactive Timeline </a></p>
-		
-				<p class="site-description">
-			Διαδραστικο χρονολογιο της ιστοριας της Πληροφορικης		</p>
-			</div>
-</div>
-<!-- .site-branding-wrapper -->
-
-<nav id="site-navigation" class="main-navigation">
-	<div class="main-navigation-inside">
-		<div class="toggle-menu-wrapper">
-			<a href="#header-menu-responsive" title="Menu" class="toggle-menu-control">
-				<span class="toggle-menu-label">Menu</span>
-			</a>
-		</div>
-
-		<div class="site-header-menu-wrapper site-header-menu-responsive-wrapper"><ul id="menu-1" class="site-header-menu site-header-menu-responsive">
+<body class="blog hfeed sticky-top">
+	<div id="page" class="site">
+		<header id="masthead" class="site-header navbar-fixed-top" role="banner"><div class="container">
+<div class="row">    	<div class="col-sm-12">
+            <nav id="site-navigation" class="main-navigation" role="navigation">
+                <div class="menu-primary-menu-container"><ul id="primary-menu" class="menu">
 <li id="menu-item-43" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-43"><a href="https://pateras95.github.io/MuseumTimeline/">Αρχικη</a></li>
 <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="https://pateras95.github.io/MuseumTimeline/about/">Υλοποιηση Εργασιας</a></li>
 <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32 current_page_item current_page_parent menu-item-45"><a href="https://pateras95.github.io/MuseumTimeline/blog/" aria-current="page">Blog</a></li>
 <li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a href="https://pateras95.github.io/MuseumTimeline/contact/">Επικοινωνια με την Ομαδα</a></li>
-</ul></div>	</div>
-<!-- .main-navigation-inside -->
-</nav><!-- .main-navigation -->
-				</div>
-<!-- .site-header-inside-wrapper -->
-
-			</div>
-<!-- .col -->
-		</div>
+</ul></div>            </nav>
+        </div>
+        </div>
 <!-- .row -->
-	</div>
-<!-- .container -->
-</header><!-- #masthead -->
+</div>
+<!-- .container --></header><!-- #masthead -->        <div class="main-banner banner-disabled overlay-enabled">
+            <div class="container">
+                <div class="row">
+                    <div class="site-branding">
+                        
+                            <h2 class="site-title"><a href="https://pateras95.github.io/MuseumTimeline/" rel="home">Interactive Timeline </a></h2>
+                           
+                            
+                                <h3 class="site-description">Διαδραστικο χρονολογιο της ιστοριας της Πληροφορικης</h3>
 
-	<div id="content" class="site-content">
-
-	
-	<div class="site-content-inside">
-		<div class="container">
-			<div class="row">
-
-				<div id="primary" class="content-area col">
-					<main id="main" class="site-main">
-
+                                                    </div>
+<!-- .site-branding -->
+                </div>
+            </div>
+        </div>
+<!-- .main-banner -->
+        <div id="content" class="site-content">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-sm-12 layout-right-sidebar main-content-area">
+<div id="primary" class="content-area">
+<main id="main" class="site-main" role="main">
+    
+<article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
+		<div class="detail-wrap">
+		<header class="entry-header">
+			<h2 class="entry-title"><a href="https://pateras95.github.io/MuseumTimeline/2021/02/09/hello-world/" rel="bookmark">Hello world!</a></h2>
+				<div class="author-date">
+											<span class="author vcard"><a class="url fn n" href="https://pateras95.github.io/MuseumTimeline/author/pateras95/">pateras95</a></span>
 					
-						<div id="post-wrapper" class="post-wrapper post-wrapper-archive">
-												
-							
-<div class="post-wrapper-hentry">
-	<article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
-		<div class="post-content-wrapper post-content-wrapper-archive">
-
-			
-			<div class="entry-data-wrapper">
-				<div class="entry-header-wrapper">
-										<div class="entry-meta entry-meta-header-before">
-						<span class="posted-on entry-meta-icon"><span class="screen-reader-text">Posted on</span><a href="https://pateras95.github.io/MuseumTimeline/2021/02/09/hello-world/" rel="bookmark"><time class="entry-date published updated" datetime="2021-02-09T18:33:13+00:00">February 9, 2021</time></a></span><span class="post-category cat-links entry-meta-icon"><a href="https://pateras95.github.io/MuseumTimeline/category/uncategorized/" title="Uncategorized">Uncategorized</a></span>					</div>
-<!-- .entry-meta -->
+											<span class="separator"> / </span>
 					
-					<header class="entry-header">
-						<h2 class="entry-title"><a href="https://pateras95.github.io/MuseumTimeline/2021/02/09/hello-world/" rel="bookmark">Hello world!</a></h2>					</header><!-- .entry-header -->
-
-										<div class="entry-meta entry-meta-header-after">
-						<span class="byline entry-meta-icon">by <span class="author vcard"><a class="entry-author-link url fn n" href="https://pateras95.github.io/MuseumTimeline/author/pateras95/" rel="author"><span class="entry-author-name">pateras95</span></a></span></span><span class="comments-link entry-meta-icon"><a href="https://pateras95.github.io/MuseumTimeline/2021/02/09/hello-world/#comments">1 Comment<span class="screen-reader-text"> on Hello world!</span></a></span>					</div>
-<!-- .entry-meta -->
+											<span class="posted-on">February 9, 2021</span>
 									</div>
-<!-- .entry-header-wrapper -->
+<!-- .author-date -->
 
-								<div class="entry-summary">
-					<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-				</div>
-<!-- .entry-summary -->
-				
-				<div class="more-link-wrapper"><a href="https://pateras95.github.io/MuseumTimeline/2021/02/09/hello-world/" class="more-link">Read More</a></div>			</div>
-<!-- .entry-data-wrapper -->
+					</header><!-- .entry-header -->
 
+		<div class="entry-content">
+			<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 		</div>
-<!-- .post-content-wrapper -->
-	</article><!-- #post-## -->
+<!-- .entry-content -->
+	</div>
+
+</article><!-- #post-## -->
+
+</main><!-- #main -->
 </div>
-<!-- .post-wrapper-hentry -->
-
-												</div>
-<!-- .post-wrapper -->
-
-						
-					
-					</main><!-- #main -->
-				</div>
 <!-- #primary -->
+</div>
+<!-- .col-md-8 --><div class="col-md-4 col-sm-12 main-sidebar">
+	<aside id="secondary" class="widget-area" role="complementary">
+		<section id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://pateras95.github.io/MuseumTimeline/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Search">
+			</form></section>
+		<section id="recent-posts-2" class="widget widget_recent_entries">
+		<h3 class="widget-title">Recent Posts</h3>
+		<ul>
+											<li>
+					<a href="https://pateras95.github.io/MuseumTimeline/2021/02/09/hello-world/">Hello world!</a>
+									</li>
+					</ul>
 
-				
-			</div>
+		</section><section id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3>
+<ul id="recentcomments"><li class="recentcomments">
+<span class="comment-author-link"><a href="https://wordpress.org/" rel="external nofollow ugc" class="url">A WordPress Commenter</a></span> on <a href="https://pateras95.github.io/MuseumTimeline/2021/02/09/hello-world/#comment-1">Hello world!</a>
+</li></ul></section><section id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>
+			<ul>
+					<li><a href="https://pateras95.github.io/MuseumTimeline/2021/02/">February 2021</a></li>
+			</ul>
+
+			</section><section id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>
+			<ul>
+					<li class="cat-item cat-item-1">
+<a href="https://pateras95.github.io/MuseumTimeline/category/uncategorized/">Uncategorized</a>
+</li>
+			</ul>
+
+			</section><section id="meta-2" class="widget widget_meta"><h3 class="widget-title">Meta</h3>
+		<ul>
+						<li><a href="https://pateras95.github.io/MuseumTimeline/wp-login.php">Log in</a></li>
+			<li><a href="https://pateras95.github.io/MuseumTimeline/feed/">Entries feed</a></li>
+			<li><a href="https://pateras95.github.io/MuseumTimeline/comments/feed/">Comments feed</a></li>
+
+			<li><a href="https://wordpress.org/">WordPress.org</a></li>
+		</ul>
+
+		</section>	</aside><!-- #secondary -->
+</div>
+</div>
 <!-- .row -->
-		</div>
+</div>
 <!-- .container -->
-	</div>
-<!-- .site-content-inside -->
-
-
-	</div>
+</div>
 <!-- #content -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+<div class="container">
+<div class="row"> 
+        <div class="col-md-6 col-sm-6">
+            
+                <div class="copyright-text">
 
-	<footer id="colophon" class="site-footer">
-		
-<div class="site-info">
-	<div class="site-info-inside">
+                    Copyright &copy; All rights reserved.
+                </div>
 
-		<div class="container">
-
-			<div class="row">
-				<div class="col">
-					<div class="credits-wrapper">
-						<div class="credits credits-blog"></div>
-<div class="credits credits-designer">Amphibious Theme by <a href="https://templatepocket.com/" title="TemplatePocket">TemplatePocket</a> <span>&sdot;</span> Powered by <a href="https://wordpress.org/" title="WordPress">WordPress</a>
-</div>					</div>
-<!-- .credits -->
-				</div>
-<!-- .col -->
-			</div>
+                 
+        </div>
+         
+        <div class="col-md-6 col-sm-6">     
+            <div class="credit-text">             
+                Blog Way by <a href="https://www.prodesigns.com/" rel="designer" target="_blank">ProDesigns</a>            </div>
+        </div>
+        </div>
 <!-- .row -->
-
-		</div>
+</div>
 <!-- .container -->
-
-	</div>
-<!-- .site-info-inside -->
 </div>
-<!-- .site-info -->
-	</footer><!-- #colophon -->
+<!-- .site-info -->	</footer><!-- #colophon -->
 
 </div>
-<!-- #page .site-wrapper -->
+<!-- #page -->
 
-<div class="overlay-effect"></div>
-<!-- .overlay-effect -->
-
-<script type="text/javascript" id="rate-my-post-js-extra">
+<a href="#page" class="scrollup" id="btn-scrollup"><i class="fa fa-angle-up"></i></a><script type="text/javascript" id="rate-my-post-js-extra">
 /* <![CDATA[ */
 var rmp_frontend = {"admin_ajax":"https:\/\/pateras95.github.io\/MuseumTimeline\/wp-admin\/admin-ajax.php","postID":"1","noVotes":"No votes so far! Be the first to rate this post.","cookie":"You already voted! This vote will not be counted!","afterVote":"Thank you for rating this post!","notShowRating":"1","social":"1","feedback":"1","cookieDisable":"1","emptyFeedback":"Please insert your feedback in the box above!","hoverTexts":"1","preventAccidental":"1","grecaptcha":"1","siteKey":"","votingPriv":"1","loggedIn":"","positiveThreshold":"2","ajaxLoad":"1","nonce":"24e1f2201b"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-content/plugins/rate-my-post/public/js/rate-my-post.js?ver=3.3.1" id="rate-my-post-js"></script>
-<script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-content/themes/amphibious/js/enquire.js?ver=2.1.6" id="enquire-js"></script>
-<script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-content/themes/amphibious/js/fitvids.js?ver=1.1" id="fitvids-js"></script>
-<script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-content/themes/amphibious/js/hover-intent.js?ver=r7" id="hover-intent-js"></script>
-<script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-content/themes/amphibious/js/superfish.js?ver=1.7.10" id="superfish-js"></script>
-<script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-content/themes/amphibious/js/custom.js?ver=1.0" id="amphibious-custom-js"></script>
+<script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-content/themes/blog-way/assets/js/skip-link-focus-fix.js?ver=20161202" id="blog-way-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-content/themes/blog-way/assets/third-party/bootstrap/bootstrap.min.js?ver=20161202" id="bootstrap-js"></script>
+<script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-content/themes/blog-way/assets/third-party/meanmenu/jquery.meanmenu.js?ver=20161202" id="meanmenu-js"></script>
+<script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-content/themes/blog-way/assets/js/custom.js?ver=20161202" id="blog-way-custom-js"></script>
 <script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-includes/js/wp-embed.min.js?ver=5.6.1" id="wp-embed-js"></script>
+
 </body>
 </html>
