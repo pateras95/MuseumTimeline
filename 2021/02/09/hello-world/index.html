@@ -28,6 +28,7 @@ img.emoji {
 	padding: 0 !important;
 }</style>
 	<link rel="stylesheet" id="wp-block-library-css" href="https://pateras95.github.io/MuseumTimeline/wp-includes/css/dist/block-library/style.min.css?ver=5.6.1" type="text/css" media="all">
+<link rel="stylesheet" id="rate-my-post-css" href="https://pateras95.github.io/MuseumTimeline/wp-content/plugins/rate-my-post/public/css/rate-my-post.css?ver=3.3.1" type="text/css" media="all">
 <link rel="stylesheet" id="bradbury-style-css" href="https://pateras95.github.io/MuseumTimeline/wp-content/themes/bradbury/style.css?ver=2.0.5" type="text/css" media="all">
 <link rel="stylesheet" id="dashicons-css" href="https://pateras95.github.io/MuseumTimeline/wp-includes/css/dashicons.min.css?ver=5.6.1" type="text/css" media="all">
 <link rel="stylesheet" id="font-awesome-css" href="https://pateras95.github.io/MuseumTimeline/wp-content/themes/bradbury/css/font-awesome.min.css?ver=4.7.0" type="text/css" media="all">
@@ -123,6 +124,7 @@ img.emoji {
 <!-- .entry-tagline --><h1 class="page-title">Hello world!</h1>
 <div class="entry-content">
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<!-- Rate my Post Plugin --><div class="rmp-widgets-container rmp-wp-plugin rmp-main-container js-rmp-widgets-container js-rmp-widgets-container--1" data-post-id="1">    <!-- Rating widget -->  <div class="rmp-rating-widget js-rmp-rating-widget">          <p class="rmp-heading rmp-heading--title">        How useful was this post?      </p>              <p class="rmp-heading rmp-heading--subtitle">        Click on a star to rate it!      </p>        <div class="rmp-rating-widget__icons">      <ul class="rmp-rating-widget__icons-list js-rmp-rating-icons-list">                  <li class="rmp-rating-widget__icons-list__icon js-rmp-rating-item" data-descriptive-rating="Not at all useful" data-value="1">            <i class="js-rmp-rating-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i>          </li>                  <li class="rmp-rating-widget__icons-list__icon js-rmp-rating-item" data-descriptive-rating="Somewhat useful" data-value="2">            <i class="js-rmp-rating-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i>          </li>                  <li class="rmp-rating-widget__icons-list__icon js-rmp-rating-item" data-descriptive-rating="Useful" data-value="3">            <i class="js-rmp-rating-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i>          </li>                  <li class="rmp-rating-widget__icons-list__icon js-rmp-rating-item" data-descriptive-rating="Fairly useful" data-value="4">            <i class="js-rmp-rating-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i>          </li>                  <li class="rmp-rating-widget__icons-list__icon js-rmp-rating-item" data-descriptive-rating="Very useful" data-value="5">            <i class="js-rmp-rating-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i>          </li>              </ul>    </div>    <p class="rmp-rating-widget__hover-text js-rmp-hover-text"></p>    <button class="rmp-rating-widget__submit-btn rmp-btn js-submit-rating-btn">      Submit Rating    </button>    <p class="rmp-rating-widget__results js-rmp-results ">      Average rating <span class="rmp-rating-widget__results__rating js-rmp-avg-rating">5</span> / 5. Vote count: <span class="rmp-rating-widget__results__votes js-rmp-vote-count">1</span>    </p>    <p class="rmp-rating-widget__not-rated js-rmp-not-rated rmp-rating-widget__not-rated--hidden">      No votes so far! Be the first to rate this post.    </p>    <p class="rmp-rating-widget__msg js-rmp-msg"></p>  </div>  <!--Structured data -->        </div>
 </div>
 <!-- .entry-content --><hr>
 <div id="academia-comments">
@@ -231,6 +233,12 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
 </div>
 <!-- #container -->
 
+<script type="text/javascript" id="rate-my-post-js-extra">
+/* <![CDATA[ */
+var rmp_frontend = {"admin_ajax":"https:\/\/pateras95.github.io\/MuseumTimeline\/wp-admin\/admin-ajax.php","postID":"1","noVotes":"No votes so far! Be the first to rate this post.","cookie":"You already voted! This vote will not be counted!","afterVote":"Thank you for rating this post!","notShowRating":"1","social":"1","feedback":"1","cookieDisable":"1","emptyFeedback":"Please insert your feedback in the box above!","hoverTexts":"1","preventAccidental":"1","grecaptcha":"1","siteKey":"","votingPriv":"1","loggedIn":"","positiveThreshold":"2","ajaxLoad":"1","nonce":"24e1f2201b"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-content/plugins/rate-my-post/public/js/rate-my-post.js?ver=3.3.1" id="rate-my-post-js"></script>
 <script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-content/themes/bradbury/js/jquery.fitvids.js?ver=1.7.10" id="jquery-fitvids-js"></script>
 <script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-content/themes/bradbury/js/bradbury.js?ver=2.0.5" id="bradbury-scripts-js"></script>
 <script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-includes/js/comment-reply.min.js?ver=5.6.1" id="comment-reply-js"></script>
