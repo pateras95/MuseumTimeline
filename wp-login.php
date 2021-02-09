@@ -2,7 +2,7 @@
 <html lang="en-US">
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Log In &lsaquo; WebPage &#8212; WordPress</title>
+	<title>Log In &lsaquo; Interactive Timeline  &#8212; WordPress</title>
 	<link rel="dns-prefetch" href="//s.w.org">
 <link rel="stylesheet" id="dashicons-css" href="https://pateras95.github.io/MuseumTimeline/wp-includes/css/dashicons.min.css?ver=5.6.1" type="text/css" media="all">
 <link rel="stylesheet" id="buttons-css" href="https://pateras95.github.io/MuseumTimeline/wp-includes/css/buttons.min.css?ver=5.6.1" type="text/css" media="all">
@@ -12,7 +12,11 @@
 	<meta name="robots" content="noindex,noarchive">
 	<meta name="referrer" content="strict-origin-when-cross-origin">
 		<meta name="viewport" content="width=device-width">
-		</head>
+	<link rel="icon" href="https://pateras95.github.io/MuseumTimeline/wp-content/uploads/2021/02/cropped-1428515-32x32.jpg" sizes="32x32">
+<link rel="icon" href="https://pateras95.github.io/MuseumTimeline/wp-content/uploads/2021/02/cropped-1428515-192x192.jpg" sizes="192x192">
+<link rel="apple-touch-icon" href="https://pateras95.github.io/MuseumTimeline/wp-content/uploads/2021/02/cropped-1428515-180x180.jpg">
+<meta name="msapplication-TileImage" content="https://pateras95.github.io/MuseumTimeline/wp-content/uploads/2021/02/cropped-1428515-270x270.jpg">
+	</head>
 	<body class="login no-js login-action-login wp-core-ui  locale-en-us">
 	<script type="text/javascript">
 		document.body.className = document.body.className.replace('no-js','js');
@@ -51,7 +55,7 @@
 wp_attempt_focus();
 if ( typeof wpOnload === 'function' ) { wpOnload() }		</script>
 				<p id="backtoblog"><a href="https://pateras95.github.io/MuseumTimeline/">
-		&larr; Go to WebPage		</a></p>
+		&larr; Go to Interactive Timeline 		</a></p>
 			</div>
 	<script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-includes/js/jquery/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://pateras95.github.io/MuseumTimeline/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
